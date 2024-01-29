@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Bolt: Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1> Generate Secure Passwords</h1>
+    <div class="generator">
+      <input type="number" id="password-length" min="4" max="32" placeholder="Password Length (4-32)">
+      <div class="checkbox-container">
+        <label for="lowercase">Lowercase</label>
+        <input type="checkbox" id="lowercase" checked>
+        <label for="uppercase">Uppercase</label>
+        <input type="checkbox" id="uppercase" checked>
+        <label for="numbers">Numbers</label>
+        <input type="checkbox" id="numbers" checked>
+        <label for="symbols">Symbols</label>
+        <input type="checkbox" id="symbols" checked>
+      </div>
+      <button id="generate-btn">Generate Password</button>
+      <div class="password-display">
+        <span id="generated-password"></span>
+        <button id="copy-btn">Copy Password</button>
+      </div>
+    </div>
+        <div class="box">Your content goes here</div>
+        <div class="tracks">
+          </div>
+        <div class="train">
+          </div>      
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

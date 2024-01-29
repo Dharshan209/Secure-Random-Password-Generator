@@ -1,0 +1,107 @@
+body {
+    background-color: #3366cc;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .generator {
+    background-color: #448aff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    text-transform: capitalize;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    background-color: #0047b8;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #003ca6;
+  }
+  
+  .password-display {
+    margin-top: 20px;
+  }
+  
+  #generated-password {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  #copy-btn {
+    margin-left: 10px;
+    font-size: smaller;
+  }
+  
+  /* Animations (optional) */
+  
+  .generator:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  .tracks {
+    /* Track styles */
+    position: absolute;
+    bottom: 50px;
+    /* Adjust position as needed */
+  }
+  
+  .train {
+    /* Train styles */
+    position: absolute;
+    bottom: 60px;
+    /* Adjust position as needed */
+    animation: move-train 5s infinite linear;
+  }
+  
+  @keyframes move-train {
+    from { transform: translateX(0); }
+    to { transform: translateX(100vw); }
+    /* Adjust distance and timing as desired */
+  }
+    
